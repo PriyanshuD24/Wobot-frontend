@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  div.app-container {
+    padding: 1rem;
+    min-height: 100svh;
+    overflow: auto;
+    background-color: #f3f4f6;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
